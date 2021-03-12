@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crazy Panda test project</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body class="ui-widget-content" style="border:0;">
+  <main>
+    <section class="slider">
+      <h2 class="visually-hidden">Slider</h2>
+      <form class="slider__control">
+        <fieldset>
+          <legend>Select:</legend>
+          <input type="radio" class="slider__radio-input" name="controls" value="color" id="text-color" data-control="color">
+          <label for="text-color" class="slider__radio-label">color</label>
+          <input type="radio" class="slider__radio-input" name="controls" value="bg-color" id="bg-color" data-control="bg-color" checked>
+          <label for="bg-color" class="slider__radio-label">backgroundColor</label>
+        </fieldset>
+      </form>
+      <div id="red"></div>
+      <div id="green"></div>
+      <div id="blue"></div>
+
+      <div id="swatch" class="ui-widget-content ui-corner-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae incidunt doloribus sint placeat.</div>
+    </section>
+  </main>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
